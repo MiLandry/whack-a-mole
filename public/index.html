@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Whack A Mole</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <div id="game-container" class="game-container">
+            <div class="row row1">
+                <div id="cell1" class="cell">
+                    <div id="mole-hole1" class="mole-hole">1</div>
+                    <div id="mole1" class="mole hidden"><img src="mole.png" id="mole-img-1" alt=""></div>
+                </div>
+                <div id="cell2" class="cell">
+                    <div id="mole-hole2" class="mole-hole">2</div>
+                    <div id="mole2" class="mole hidden"><img src="mole.png" id="mole-img-2" alt=""></div>
+                </div>
+                <div id="cell3" class="cell">
+                    <div id="mole-hole3" class="mole-hole">3</div>
+                    <div id="mole3" class="mole hidden"><img src="mole.png" id="mole-img-3" alt=""></div>
+                </div>
+            </div>
+            <div class="row row2">
+                <div id="cell1" class="cell">
+                    <div id="mole-hole4" class="mole-hole">4</div>
+                    <div id="mole4" class="mole hidden"><img src="mole.png" id="mole-img-4" alt=""></div>
+                </div>
+                <div id="cell2" class="cell">
+                    <div id="mole-hole5" class="mole-hole">5</div>
+                    <div id="mole5" class="mole hidden"><img src="mole.png" id="mole-img-5" alt=""></div>
+                </div>
+                <div id="cell3" class="cell">
+                    <div id="mole-hole6" class="mole-hole">6</div>
+                    <div id="mole6" class="mole hidden"><img src="mole.png" id="mole-img-6" alt=""></div>
+                </div>
+            </div>
+            <div class="row row3">
+                <div id="cell1" class="cell">
+                    <div id="mole-hole7" class="mole-hole">7</div>
+                    <div id="mole7" class="mole hidden"><img src="mole.png" id="mole-img-7" alt=""></div>
+                </div>
+                <div id="cell2" class="cell">
+                    <div id="mole-hole8" class="mole-hole">8</div>
+                    <div id="mole8" class="mole hidden"><img src="mole.png" id="mole-img-8" alt=""></div>
+                </div>
+                <div id="cell3" class="cell">
+                    <div id="mole-hole9" class="mole-hole">9</div>
+                    <div id="mole9" class="mole hidden"><img src="mole.png" id="mole-img-9" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="score-container">
+            <span id="score" class="score">Score: 0</span>
+            <span id="timer" class="score">Time: 20</span>
+        </div>
+        <div class="controls">
+            <span id="start" class="enabled-control">start</span>
+            <span id="stop" class="disabled-control">stop</span>
+            <span id="reset" class="disabled-control">reset</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
