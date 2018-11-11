@@ -1,0 +1,22 @@
+{
+  "name": "whack-a-mole",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MiLandry/whack-a-mole.git",
+  "author": "Michael Landry <mlandryviolin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "simple-hot-reload-server": "^1.1.12"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "scripts": {
+  "dev": "hrs ./public/",
+  "build": "echo 'no-op'"
+  }
+}
