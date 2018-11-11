@@ -2,8 +2,10 @@ body {
      background-color: skyblue;
      display: flex;
      justify-content: center;
+     flex-basis: auto;
 }
  img {
+     z-index: 3;
      width: 100%;
      height: 100%;
      object-fit: contain;
@@ -14,7 +16,6 @@ body {
      flex-direction: column;
 }
  .game-container {
-     background-color: lime;
      background-color: green;
 }
  .row {
@@ -75,3 +76,27 @@ body {
  .disabled {
      pointer-events: none;
 }
+ @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     .cell {
+         display: block;
+         justify-content: default;
+         align-items: default;
+    }
+     .mole-hole {
+         margin-left: 3.5vmin;
+         margin-top: 8vmin;
+    }
+     .mole {
+         position: absolute;
+         transform: translate(18%, -20%);
+    }
+     img {
+         margin-left: 3.5vmin;
+         margin-top: 8vmin;
+    }
+     .enabled-control, .disabled-control {
+         margin-left: auto;
+         margin-right: auto;
+    }
+}
+ 

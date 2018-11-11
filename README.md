@@ -12,10 +12,10 @@ Because moles need to be whacked
 `yarn dev`
 
 then browse to 
-http://localhost:8080
+http://localhost:8082
 
-
-## Resources
+## Hosted URL
+https://nostalgic-kowalevski-db9078.netlify.com/
 
 ## License
 UNLICENSED
