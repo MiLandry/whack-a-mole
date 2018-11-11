@@ -5,6 +5,7 @@ body {
      flex-basis: auto;
 }
  img {
+     z-index: 3;
      width: 100%;
      height: 100%;
      object-fit: contain;
@@ -74,4 +75,31 @@ body {
 }
  .disabled {
      pointer-events: none;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+         .cell {
+     display: block;
+          justify-content: default;
+     align-items: default;
+}
+          .mole-hole {
+     margin-left: 3.5vmin;
+     margin-top: 8vmin; 
+     }
+
+     .mole {
+          position: absolute;
+transform: translate(18%, -20%);
+     }
+
+ img {
+     background-color: ruby;
+          margin-left: 3.5vmin;
+     margin-top: 8vmin; 
+/*     z-index: 3;
+     width: 100%;
+     height: 100%;*/
+}
+
 }

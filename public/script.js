@@ -28,9 +28,9 @@ function setTimer(time) {
 
 function resetMoles() {
   // hide all moles
-  moleNodes.forEach(function (mole) {
-    mole.classList.add('hidden')
-  })
+  for(var i =0; i < moleNodes.length; i++){
+    moleNodes[i].classList.add('hidden')
+}
 }
 
 function incrementScore() {
